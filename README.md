@@ -18,7 +18,7 @@ B -> )
 Note: Your program do not assign value to p and q, althought accept it.
 
 # Pushdown Automata
-
+![Figure 1. Pushdown Automata](./pushdown2.png)
 
 # Compilation
 > gcc -o teste ada2asa.c pcode.c rpn2pci.c btree2rpn.c pushdown.c main.c
@@ -41,4 +41,4 @@ Note: Your program do not assign value to p and q, althought accept it.
 | T |  1  | TRUE
 
 # Examples
-See output files above.
+See output.txt file on repo.
