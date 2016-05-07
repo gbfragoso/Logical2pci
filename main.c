@@ -15,7 +15,7 @@ typedef char * string;
 
 int main (int argc, char **argv){
 	
-	int stack[1024] = {3,3,3,3,3,3,3,3,3,3,3,3,3,3,3};		// Vector with only integers, used as a datastore
+	int stack[100] = {3,3,3,3,3,3,3,3,3,3,3,3,3,3,3};		// Vector with only integers, used as a datastore
     int productions[50], i;	    							// Result of Pushdown Automata
     char btree[50] = {""};									// Binary Tree
     string rpn;               								// Reverse Polish Notation
