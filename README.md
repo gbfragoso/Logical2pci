@@ -41,4 +41,4 @@ Note: Your program do not assign value to p and q, althought accept it.
 | T |  1  | TRUE
 
 # Examples
-See output.txt file on repo.
+See ![Example 1](./output.txt) and ![Example 2](./output2.txt) file on repo.
