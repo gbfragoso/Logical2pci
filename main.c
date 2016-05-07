@@ -10,10 +10,7 @@
 typedef char * string;
 
 /*
-	This program aim to convert a expression into pcode instructions. The convert process is compound of 6 steps
-	Expr -> Pushdown Automata -> Productions -> Btree -> RPN -> PCI. 
-	
-	Author: Gustavo B. Fragoso
+ *Author: Gustavo B. Fragoso
 */
 
 int main (int argc, char **argv){
