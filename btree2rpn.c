@@ -3,7 +3,7 @@
 
 char* postOrder(char* btree, int treeSize, int node, char *expr){
     if(node >= treeSize || btree[node] == '_'){
-    	return;
+    	return NULL;
     }else{
     	postOrder(btree, treeSize, 2*node+1, expr);
     	postOrder(btree, treeSize, 2*node+2, expr);
