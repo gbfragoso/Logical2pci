@@ -12,6 +12,9 @@ void applyProduction(char *array, int production, int node){
         case 3:
             array[node] = 'q';
         break;
+        case 4:
+            array[node] = '!';
+            array[2*node+1] = 'E';
         case 5:
             array[node] = 'A';
             array[2*node+1] = 'E';
