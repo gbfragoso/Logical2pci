@@ -43,7 +43,7 @@ int getFather(int node){
 }
 
 void ada_to_asa(char *array, int productions[]){
-    int next = 0, i, j = 0;
+    int next = 0, i, j = 0, max = 0;
     
     for(i=0; productions[j] != -1 ; i++){
         switch(array[next]){
