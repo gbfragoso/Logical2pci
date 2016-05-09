@@ -1,6 +1,6 @@
 #include "rpn2pci.h"
 #include <ctype.h>
-#include <string.h>
+#include <stdlib.h>
 
 Tinstruction* toInstruction(char *epr, int treeSize){
 	int i;
