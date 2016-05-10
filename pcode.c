@@ -41,7 +41,7 @@ void pcode(Tinstruction inst[], int stack[], FILE *output){
     					break;
     				case BIC:
     					top--;
-    					stack[top] = !(stack[top] ^ stack[top+1]);
+    					stack[top] = ((!stack[top] || stack[top+1]) && (!stack[top+1] || stack[top]));
     					break;
     				default:
     					printf("Unknown OPR subfunction");
