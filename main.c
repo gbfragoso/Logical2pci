@@ -86,7 +86,7 @@ int main (int argc, char **argv){
 	    	printf("\nToo long expression");
 	    }
     }else{
-    	printf("\nInsuficient params");
+    	printf("Insufficient params, running like this %s \"expr\"\n", argv[0]);
     }
     
     return 0;
