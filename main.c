@@ -63,7 +63,6 @@ int main (int argc, char **argv){
 	    			
 	    			printf("Step 4. Mirroring the btree ... ");
 				mirror(btree);
-				btree[50] = '\0';
 				fprintf(output,"\nMirrored btree: %s", btree);
 				printf("done!\n");
 	    			
