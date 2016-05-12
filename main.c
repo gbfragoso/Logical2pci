@@ -39,7 +39,8 @@ int main (int argc, char **argv){
     
     	// Initial symbol
     	btree[0] = 'E';
-    
+    	btree[TREE_SIZE] = '\0';
+    	
     	if (argc == 2){
 	    	// Expr
 	    	string expr = argv[1];
@@ -63,7 +64,6 @@ int main (int argc, char **argv){
 	    			
 	    			printf("Step 4. Mirroring the btree ... ");
 				mirror(btree);
-				btree[TREE_SIZE] = '\0';
 				fprintf(output,"\nMirrored btree: %s", btree);
 				printf("done!\n");
 	    			
