@@ -8,7 +8,7 @@
 #include "pushdown.h"
 
 #define STACK_SIZE 50
-#define TREE_SIZE 50
+#define TREE_SIZE 64
 
 typedef char * string;
 
@@ -118,7 +118,7 @@ void reverse (char *array, int start, int end){
 void mirror(char* array){
 	int i = 1, c = 2;
         
-	while(c < 32){
+	while(c < TREE_SIZE/2){
 		reverse(array, i , i + c);
 		i += c;
 		c *= 2;
